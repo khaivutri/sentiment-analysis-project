@@ -273,7 +273,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Vu Tri Khai** - Initial work - [VuTriKhai]([https://github.com/khaivutri])
+- **Vu Tri Khai** – Initial work – [VuTriKhai](https://github.com/khaivutri)
 
 ## 🙏 Acknowledgments
 
@@ -286,7 +286,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions or support, please contact:
 - Email: khai.vutri@hcmut.edu.vn
-- GitHub: [@VoMinhKhoii]([https://github.com/khaivutri])
+- GitHub: [@khaivutri](https://github.com/khaivutri)
 
 ---
 
