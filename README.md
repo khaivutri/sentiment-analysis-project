@@ -285,8 +285,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact
 
 For questions or support, please contact:
-- Email: your.email@example.com
-- GitHub: [@VoMinhKhoii](https://github.com/VoMinhKhoii)
+- Email: khai.vutri@hcmut.edu.vn
+- GitHub: [@VoMinhKhoii]((https://github.com/khaivutri))
 
 ---
 
