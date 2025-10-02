@@ -1,0 +1,61 @@
+version: "3.8"
+name: "twitter-sentiment-analysis-app"
+services:
+  api_enhance_bert:
+    build:
+      context: ./backend_enhanced_bert
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    env_file: ./backend_enhanced_bert/.env
+    volumes: 
+      - ./backend_enhanced_bert:/src
+    networks:
+      - twitter-sentiment-analysis-app
+    ports: 
+      - 8888:8888
+  
+  api_elmo_bert:
+    build:
+      context: ./backend_elmo_bert
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    env_file: ./backend_elmo_bert/.env
+    volumes: 
+      - ./backend_elmo_bert:/src
+    networks:
+      - twitter-sentiment-analysis-app
+    ports: 
+      - 8889:8888
+
+  api_elmo_trans:
+    build:
+      context: ./backend_elmo_trans
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    env_file: ./backend_elmo_trans/.env
+    volumes: 
+      - ./backend_elmo_trans:/src
+    networks:
+      - twitter-sentiment-analysis-app
+    ports: 
+      - 8890:8888
+
+  client:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    ports:
+      - 8000:8000
+    networks:
+      - twitter-sentiment-analysis-app
+    depends_on:
+      - api_enhance_bert
+
+
+networks:
+  twitter-sentiment-analysis-app:
+    driver: bridge

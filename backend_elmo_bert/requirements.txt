@@ -1,0 +1,37 @@
+# FastAPI and web server
+fastapi
+uvicorn
+pydantic
+
+# PyTorch for CPU (Docker compatibility)
+torch
+torchvision
+torchaudio
+
+# Transformers and NLP
+transformers
+tokenizers
+
+# TensorFlow for ELMo embeddings
+tensorflow>=2.16.0
+tensorflow-hub
+tensorflow-text
+
+# Data processing
+pandas
+numpy
+scikit-learn
+
+# Text preprocessing
+emoji
+regex
+stanza
+
+# Google API dependencies
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+
+# Environment variables
+python-dotenv
