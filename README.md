@@ -273,7 +273,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Vo Minh Khoi** - Initial work - [VoMinhKhoii](https://github.com/VoMinhKhoii)
+- **Vu Tri Khai** - Initial work - [VuTriKhai]((https://github.com/khaivutri))
 
 ## 🙏 Acknowledgments
 
